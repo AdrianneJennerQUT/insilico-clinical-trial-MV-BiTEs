@@ -1,6 +1,7 @@
-This repository is the draft code for an in silico clinical trial of MV-BiTEs therapy. This code is not ready for publication and the manuscript has not been submitted. 
+The code in this repository accompanies the manuscript ''In silico clinical trials of BiTE expression by oncolytic viruses reveal the impact of patient heterogeneity on dosage protocol'' Jenner et al. submitted to PLOS Computational Biology
 
-The code is organised roughly by the objective of the code. For example fitting, generating cohort patients etc
+In this paper, we develop a system of ordinary differential equations (ODEs) to describe the interaction between tumour cells, T cells and an oncolytic virus expressing bi-specific T cells engagers (BiTEs). All code developed for the manuscript was in MATLAB. 
 
+To simulate the ODE model in the manuscript, see "ODE model - MATLAB" folder. We reproducibility, we have also provided the code to simulate the ODE model in Julia, see "ODE model - Julia".
 
 ![Figure 1](Figures/Figure1.png)
