@@ -6,4 +6,8 @@ To simulate the ODE model in the manuscript, see "ODE model - MATLAB" folder. To
 
 For reproducibility, we have also provided the code to simulate the ODE model in Julia, see "ODE model - Julia".
 
+Included in this repositiory, is the fitting code to fit the in vitro cell viability and viral projeny measurements to the submodel, all presented in the supplementary information of the paper. To run the fitting code, run "commands_cellviab_viralproj.m".
+
+Below is Figure 1 from our paper. It summarises the biology behind the model, i.e. that a virus is injected intravenously and once at the tumour site, infects and kills tumour cells whilst also recruiting the immune system. 
+
 ![Figure 1](Figures/Figure1.png)
